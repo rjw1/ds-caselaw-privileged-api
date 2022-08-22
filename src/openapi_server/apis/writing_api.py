@@ -165,7 +165,6 @@ async def judgment_uri_patch(
 
     client = client_for_basic_auth(token_basic)
     bytes_body = await request.body()
-    breakpoint()
     try:
         _ml_response = client.save_locked_judgment_xml(  # noqa: F841
             # judgment_uri=judgmentUri,
