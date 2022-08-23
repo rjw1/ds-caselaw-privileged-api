@@ -31,7 +31,6 @@ watchgod==0.7
 websockets==8.1
 
 ds-caselaw-marklogic-api-client>=4.9.1
-# ../ds-caselaw-custom-api-client
 certifi==2021.10.8
 # charset-normalizer==2.1.0
 django-environ==0.8.1
